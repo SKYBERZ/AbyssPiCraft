@@ -21,18 +21,22 @@ Built by **Abyss Hub**.
 Run this **one‑liner** on your Raspberry Pi (requires Raspberry Pi OS/Debian):
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/YOURNAME/abysspicraft/main/install.sh | bash
-
+curl -sSL https://raw.githubusercontent.com/SKYBERZ/AbyssPiCraft/main/install.sh | bash
+```
 
 
 # 1. Start the backend (FastAPI)
+```bash
 cd ~/abysspicraft/backend
 source venv/bin/activate
 uvicorn main:app --host 0.0.0.0 --port 8000
+```
 
 # 2. Start the frontend (React/Tailwind)
+```bash
 cd ~/abysspicraft/frontend
 npm run dev
+```
 
 # 3. Open the panel in your browser
 http://raspberrypi.local:5173
@@ -62,4 +66,4 @@ Password: admin
 
 
 🌐 Community
-Join the Abyss Hub community for support, updates, and collaboration: 👉 Discord Server
+Join the Abyss Hub community for support, updates, and collaboration: 👉 [Discord Server](https://discord.gg/JszuX2z2F8)
