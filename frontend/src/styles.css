@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: radial-gradient(1200px 600px at 20% 20%, #0a1f44 0%, #000000 60%);
+}
+.glow {
+  box-shadow: 0 0 8px #00ffff, inset 0 0 8px #00ffff;
+}
+.btn {
+  @apply px-4 py-2 rounded border border-neonCyan text-neonCyan hover:bg-neonCyan hover:text-abyssBlack transition;
+}
+.card {
+  @apply bg-abyssBlue/40 border border-neonCyan/50 rounded p-4 shadow-neon;
+}
