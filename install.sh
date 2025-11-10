@@ -11,7 +11,7 @@ sudo apt install -y python3 python3-venv python3-pip git nodejs npm openjdk-21-j
 
 # Clone repo if not already
 if [ ! -d "$HOME/abysspicraft" ]; then
-  git clone https://github.com/YOURNAME/abysspicraft.git $HOME/abysspicraft
+  git clone https://github.com/SKYBERZ/AbyssPiCraft.git
 fi
 
 cd $HOME/abysspicraft/backend
